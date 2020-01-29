@@ -1,0 +1,148 @@
+* {
+    margin: 0
+}
+
+body {
+
+}
+#header1 {
+    top: 0;
+    z-index: 10;
+    position: fixed;
+
+    background-color: #323a56;
+    color: gainsboro;
+    width: 100vw;
+    padding: 5px;
+}
+#bruteforce {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    border-bottom: 2px solid gainsboro;
+    width: 70vw;
+    text-align: center;
+    padding-bottom: 5px;
+}
+#header1 h1 {
+
+    text-align: center;
+}
+#flexed ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    margin-left: 15vw;
+}
+#header1 li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 10px;
+}
+#header2 {
+    border-top-left-radius: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, .8);
+    margin: 10vw 15vw 0 15vw;
+    background-color: #f0f0f0;
+}
+#header2 ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+#header2 li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4b535d;
+    display: flex;
+    margin: 15px 0;
+}
+.article {
+    margin: 0 15vw;
+    margin-right:0;
+    padding: 15px;
+    color: #4b535d;
+    padding-bottom: 20px;
+    background-color: #f0f0f0;
+    width: 45vw;
+    border-right: 1px solid rgba(0, 0, 0, .3)
+
+}
+.article h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #412c26;
+    padding-bottom: 15px;
+}
+.population {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #412c26;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+h3.population {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e3120b;
+    width: 15%;
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.population-box {
+    display: flex;
+    justify-content: center;
+
+}
+h3:hover {
+
+}
+#content {
+    display:flex;
+    justify-items: center;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+/* #writing {
+    padding-bottom: 40px;
+    padding-left: 0;
+    background-color: #f0f0f0;
+    margin-left: 15vw;
+    width: 45vw;
+} */
+#monas {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-right: 15vw;
+    width: 30vw;
+    background-image: url(../img/Jakarta\ office.jpg);
+    background-size: 50vw;
+}
+#monas p {
+    margin: 75% 0;
+    padding: 10px;
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    border: 2px solid gainsboro;
+    color: gainsboro;
+    font-size: 32;
+}
+footer {
+    background-color: #323a56;
+    color: gainsboro;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+
+li:hover {
+   transform: scale(1.1)
+}
